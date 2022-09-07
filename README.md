@@ -1,31 +1,66 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sea Battleship
 
-Welcome kamran082,
+Sea Battleship is a python terminal game, which runs in the code institute mock terminal on Heroku.
+It,s single player game, player needs to find two ships on board. And sunk them, before finish bullets.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+# How to play
 
-## Reminders
+Sea Battleship is based on the classis pen-and-paper game. You can read more about it on Wikipedia.
+In this version, a board randomly generated. The player need to guess ships on boards. Guesses are
+marked on (-) . Hits are indicated by (X).
+The player challenge is to sunk all ships before finish all bullets.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+# Screenshots & Features
 
-## Creating the Heroku app
+1. A random board generated.
+2. Ships are randomly placed on board.
+3. player cannot see where the ships are.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+![CI logo](../Sea-Battleship-Game/images/1.png)
 
-1. `heroku/python`
-2. `heroku/nodejs`
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+1. Player guess between 0-3.
+2. If you miss, or Hit boards will show you the message.
+3. Board will show howmany bullets and ships left.
 
-Connect your GitHub repository and deploy as normal.
+![CI logo](../Sea-Battleship-Game/images/2.png)
 
-## Constraints
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+1. You can not enter number outside the grid.
+2. You can not enter a word or letter.
+3. you can not enter same guess twice.
 
------
-Happy coding!
+![CI logo](../Sea-Battleship-Game/images/3.png)
+
+# Data Model
+I used 2D array Model.
+
+# Testing
+
+I have manually tested this project by doing the folling:
+1. passed the code throught a PEP8 linter and confirmed ther are no problems.
+2. Given invalid inputs, strings when numbers are expected, same input twice.
+
+# Bugs.
+#Solved Bugs:
+
+ when i wrote the project i was getting white line spacing, which i fixed it by change the setting in gitpod.
+
+# Remaining Bugs.
+#No bugs remaining.
+
+# Deployment
+This project was deployed using code institute mock terminal for Heroku.
+
+#Steps for Deployment:
+
+1. Fore or clone this repository
+2. Create a new Heroku app
+3. Set the buildbacks to python and node js in the order
+4. Link the Heroku app to the repository
+5. Click on Deploy.
+
+# Credits
+1. Code institute for the deployment terminal
+2. Wikipedia for the details of the Battleship game.
