@@ -14,7 +14,7 @@ marked on (-) . Hits are indicated by (X). player have 8 bullets and 2 ship to s
 - Ships are randomly placed on board.
 - player cannot see where the ships are.
 
-![CI logo](/images/2.png)
+![CI logo](./images/1.png)
 
 
 
@@ -22,14 +22,14 @@ marked on (-) . Hits are indicated by (X). player have 8 bullets and 2 ship to s
 - If you miss, or Hit boards will show you the message.
 - Board will show howmany bullets and ships left.
 
-![CI logo](./images/3.png)
+![CI logo](./images/2.png)
 
 
 - You can not enter number more than 3.
 - You can not enter a word or letter.
 - you can not enter same guess twice.
 
-![CI logo](../Sea-Battleship-Game/images/3.png)
+![CI logo](./images/3.png)
 
 # Data Model
 I used 4 rows , 4 column board map. and randomly 2 ships will be on board map . I selected 8 bullets. and if you hit a ship you get one extra bullet. I also define yes/no function if player want to play again.
