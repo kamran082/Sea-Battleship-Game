@@ -1,6 +1,6 @@
 import random
 
-# create a function to use in if else statements
+# created a function to use in if else statements
 def line():
     print('-----------------------------------')
 
@@ -22,7 +22,7 @@ def new_game():
 
     for a in board:
         print(*a)
-        # create random ship function
+        # created random ship function
         def random_ship():
             return random.randrange(row), random.randrange(column)
         row = 4
