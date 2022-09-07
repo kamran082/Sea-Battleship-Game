@@ -14,7 +14,7 @@ marked on (-) . Hits are indicated by (X). player have 8 bullets and 2 ship to s
 - Ships are randomly placed on board.
 - player cannot see where the ships are.
 
-![CI logo](../Sea-Battleship-Game/images/1.png)
+![CI logo](/images/2.png)
 
 
 
@@ -22,7 +22,7 @@ marked on (-) . Hits are indicated by (X). player have 8 bullets and 2 ship to s
 - If you miss, or Hit boards will show you the message.
 - Board will show howmany bullets and ships left.
 
-![CI logo](../Sea-Battleship-Game/images/2.png)
+![CI logo](./images/3.png)
 
 
 - You can not enter number more than 3.
