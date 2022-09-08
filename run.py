@@ -36,8 +36,8 @@ def new_game():
     while bullets:
         try:
             line()
-            row = int(input('Guess a row number between 0-3: '))
-            column = int(input('Guess a column number between 0-3: '))
+            row = int(input('Guess a row number between 0-3:\n '))
+            column = int(input('Guess a column number between 0-3:\n '))
         except ValueError:
             print('*You must enter a number!*')
             continue
@@ -78,7 +78,7 @@ def new_game():
 
 # Game play again function
 def play_again():
-    try_again = input('Try again? (Y/N):')
+    try_again = input('Try again? (Y/N):\n')
     if try_again.lower() == 'y':
         line()
         new_game()
